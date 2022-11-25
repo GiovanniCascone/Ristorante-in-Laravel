@@ -1,0 +1,30 @@
+#tab{
+    text-align: center;
+    align-items: center;
+    border: 0.5em solid var(--primo-colore);
+    border-radius: 1em;
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+#prodotti{
+    text-align: center;
+    margin: 1em;
+}
+
+td{
+    border-top: 0.2em solid var(--terzo-colore);
+}
+
+#immagine {
+    width: 300px;
+    height: 200px;
+}
+
+#immagine img {
+    width: 90%;
+    height:90%;
+    border-radius: 1em;
+    object-fit: cover;
+    margin: 0.2em 0.2em 0.2em 0.2em;
+}

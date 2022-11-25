@@ -1,0 +1,140 @@
+/*variabili*/
+:root{
+    --primo-colore: #7FBCD2;
+    --secondo-colore: #FFEEAF;
+    --terzo-colore: #A5F1E9;
+    --input: #03A89E;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    background-color: var(--secondo-colore);
+    margin: 0%;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titolo{
+    font-size: 2em;
+    background-color: var(--terzo-colore);
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 0.5em;
+    border-radius: 1em;
+    background-color: var(--secondo-colore);
+    padding: 0.3em;
+    border: 0.15em solid var(--primo-colore);
+}
+
+h3{
+    padding: 0.3em;
+    text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 0.5em solid var(--primo-colore);
+    font-size: 2em;
+    padding: 3%;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+#accedi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+form div{
+    color: red;
+    font-size: 0.7em;
+    margin: 2% 2% 2% 2%;
+}
+
+form input{
+    margin: 2% 0% 0% 0%;
+    border-radius: 1em;
+}
+
+#submit{
+    background-color: var(--input);
+    margin-bottom: 1%;
+    font-size: 1.5em;
+    color:white;
+}
+
+#oppure{
+    color: black;
+    font-size: 0.9em;
+    margin: 2% 2% 2% 2%;
+}
+
+a{
+    font-size: 2em;
+    border: 0.2em solid white;
+    color:white;
+    padding: 3%;
+    background-color: var(--input);
+    text-decoration: none;
+}
+
+.hidden{
+    display: none;
+}
+
+footer{
+    background-color: var(--primo-colore);
+    font-size: 2em;
+    padding: 0.4em;
+    margin-top: 10%;
+}
+
+@media(max-width: 600px){
+    body{
+        font-size: 1.1em;
+    }
+    form{
+        width: auto;
+        height: auto;
+    }
+    input{
+       font-size: 0.7em;
+    }
+    #submit{
+        font-size: 1.1em;
+    }
+    #oppure{
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+        margin-top: 0.2em;
+    }
+    #privacy{
+        width: 1em;
+        height: 1em;
+    }
+    footer{
+        font-size: 1.5em;
+    }
+}

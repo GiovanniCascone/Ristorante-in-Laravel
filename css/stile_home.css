@@ -1,0 +1,51 @@
+article{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    text-align: center;
+    align-items: center;
+    border: 0.5em solid var(--primo-colore);
+    border-radius: 1em;
+    margin: 1em;
+}
+
+input{
+    text-align: center;
+    border-radius: 1em;
+}
+
+table img{
+    border-radius: 0.3em;
+}
+
+td{
+    border-top: 0.2em solid var(--terzo-colore);
+}
+
+.pulsanti{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#errQuantity, #errTav, #errTot{
+    font-size: 10;
+    color: red;
+}
+
+#totale, #tavolo{
+    width: 5em;
+}
+
+.hidden{
+    display: none;
+}
+
+#success{
+    font-size: 3em;
+    color: var(--input);
+    text-align: center;
+    border-radius: 1em;
+    border: 0.5em solid var(--primo-colore);
+    margin: 1em;
+}
